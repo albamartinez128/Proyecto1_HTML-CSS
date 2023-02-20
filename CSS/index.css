@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 12px;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.navegacion{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+
+.navegacion ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navegacion li{
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.menu-navegacion a{
+    color: white;
+}
+
+.links-navegacion a{
+color: white;
+}
+.shop{
+    margin-left: 20px;
+}
+
+
+
+.shop i{
+    margin: 0 20px;
+    color: white;
+}
+
+.encabezado h2{
+    font-family: sans-serif;
+   text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    margin: 0;
+}
+
+ .white_text{
+    color: white;
+    justify-content: center;
+    
+}
+ .black_text{
+    color: black;
+    
+}
+
+.encabezado h3{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+    
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main a {
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    
+    display:inline-flex;
+    size: 15px;
+    
+    
+}
+.contenedor1{
+    background-color: #f4ebeb39;
+}
+.imagen-portada{
+background-image:url(../IMG/rihanna__fvhjo9zi8haq_large.jpg) ;
+align-items:center;
+justify-content: center;
+position: relative;
+width: 100%;
+height: 600px;
+background-position: center center;
+background-size: cover;
+padding-top:40px;
+margin: 0 auto; 
+
+}
+
+.manzana{
+background-image: url(../IMG/manzana.png);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+
+}
+
+.white_text{
+    text-decoration: none;
+}
+.titulo-rihanna{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 400px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 530;
+    margin-bottom: 23px;
+}
+
+.texto-rihanna{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    min-width: 200px;
+    max-width: 400px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-family: sans-serif;     
+}
+
+.imagen-principal{
+    background-color: black;
+    background-image: url(../IMG/unnamed.jpg);
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 735px;
+    background-position: center center;
+    background-size: cover;
+    padding-top:40px;  
+}
+
+ .enlaces{
+    width: 500px;
+    text-align: center;
+    margin:0 auto;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+.enlaces a{
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.enlaces a:hover{
+    text-decoration: underline;
+}
+
+.imagen-secundaria{
+    background-color: white;
+    background-image: url(../IMG/Img-Secundaria1.jpg);
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 735px;
+    background-position: center center;
+    background-size: cover;
+    padding-top:40px;
+}
+
+footer{
+    background-color: #f5f5f7;
+    display: inline-block
+}
+
+.seccion-principal{
+    text-align: justify;
+}
+
+.seccion-secundaria{
+    display: flex;
+
+    
+}
+.seccion-secundaria div{
+    flex-grow: 1;
+}
+
+ul>li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 11px;
+}
+
+.titulo-contenedor{
+    font-weight: bold;
+}
+
+footer{
+    padding-top: 30px;
+   
+}
+.seccion-contenedor{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 22px;
+}
+
+footer p {
+    color: grey;
+}
+
+.footer-links {
+display: flex;
+
+
+ text-decoration: none;
+ font-size: 9px;
+}
+
+.footer-menu{
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-menu li{
+    margin: 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+
+.seccion-principal{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contacto{
+    border-bottom: 1px solid rgb(184, 184, 184);;
+    padding-bottom: 10px;
+   margin-bottom: 10px;
+
+}
+.footer-menu li::after{
+    content: "|";
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight:600 bold;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+
+}
+
+.coleccion-productos{
+    display: flex;
+    align-items: stretch;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+
+   margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-color: rgb(226, 218, 218); */
+  
+}
+
+
+
+figcaption{
+    margin-top: 18px;
+}
+
+.products img:hover{
+    transform: scale(1.2);
+    transition: all 0.55s ease;
+    translate:  80px;
+}
+
+.imagen-watch{
+  background-image: url(../IMG/hero_apple_watch_series_8__bjc1ok5mkjua_large.jpg);
+ background-position: center center;
+height: 725px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.titulo-watch{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    min-width: 200px;
+    max-width: 400px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-family: sans-serif;  
+    margin-top: 50px;
+}
+
+.red_text{
+    color: red;
+   font-family: sans-serif;
+   font-size: 18px;
+   text-align: center;
+  letter-spacing: 2px;
+}
+
+.seccion-contenedor{
+    color: grey;
+}
+
+.titulo-contenedor{
+    color: black;
+    font-weight: 500;
+   
+}
+
+@media screen and ( max-width:768px) {
+    .navegacion .links-navegacion{
+        display: none;
+    }
+    .seccion-secundaria{
+        flex-wrap: wrap;
+    }
+    .imagen-watch
+}
+
