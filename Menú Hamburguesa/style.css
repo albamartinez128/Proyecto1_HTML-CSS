@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: beige;
+}
+
+.navbar{
+    font-size: 1.8em;
+    background-image: linear-gradient(260deg, rgb(129, 129, 135) 0%, rgb(167, 152, 158) 100%);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.menu-nav{
+    list-style-type: none;
+    display: none;
+
+}
+
+.nav-links, .logo{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-nav li{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 1.8em;
+    margin: 20px 0 0 20px;
+}
+
+.navbar-toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.8em;
+
+}
+
+#check{
+    display: none;
+    
+}
+#check:checked+ul.menu-nav{
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 80px;
+        align-items: center;  
+    }
+
+    .menu-nav{
+        display: flex;
+        margin-right: 30px;
+    }
+    #check:checked+ul.menu-nav{
+        display: flex;
+    }
+
+    .menu-nav li{
+        margin: 0;
+    }
+    .nav-links{
+        margin-left: 40px;
+    }
+
+    .logo{
+        margin-top: 0;
+    }
+
+    .navbar-toggle{
+        display: none;
+    }
+
+    
+}
