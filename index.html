@@ -18,12 +18,12 @@
   <body>
     <!-- BARRA DE NAVEGACIÓN -->
     <nav class="navegacion">
-      <div>
+      <div class="logo">
         <i class="fa-brands fa-apple"></i>
       </div>
 
       <div class="links-navegacion">
-        <ul>
+        <ul class="menu-nav">
           <li> <a href="https://www.apple.com/es/store" target="_blank" rel="noopener"> Tienda</li></a>
           <li><a href="https://www.apple.com/es/mac/" target="_blank" rel="noopener"> Mac</li></a>
           <li> <a href="https://www.apple.com/es/ipad/" target="_blank" rel="noopener">Ipad</li></a> 
@@ -37,9 +37,15 @@
         </ul>
       </div>
       <div class="shop">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
+       <a href="https://www.apple.com/es/"> <i class="fa-solid fa-magnifying-glass"></i></a>
+       <a href="https://www.apple.com/es/"> <i class="fa-solid fa-bag-shopping"></i></a>
       </div>
+      <div class="menu-hamburguesa">
+        <label class="navbar-toggle" id="js-navbar-toggle" for="check"><i class="fa-sharp fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="check">
+
+      </div>
+    
     </nav>
 
     <!-- ENCABEZADO -->
@@ -63,7 +69,7 @@
     <section class="coleccion-productos">
       <article>
         <picture class="products">
-          <img
+         <a href="https://www.apple.com/es/shop/buy-iphone"> <img
             width="200"
             height="130"
             alt=""
@@ -72,13 +78,13 @@
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_EMEA?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1661027786072,
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_EMEA?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661027786072 2x
             "
-          />
-          <figcaption>iPhone</figcaption>
+          /></a>
+          <figcaption class="nombre-productos">iPhone</figcaption>
         </picture>
       </article>
       <article>
         <picture class="products">
-          <img
+         <a href="https://www.apple.com/es/shop/buy-mac"><img 
             width="200"
             height="130"
             alt=""
@@ -87,14 +93,14 @@
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670959891635,
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670959891635 2x
             "
-          />
+          /> </a> 
 
-          <figcaption>Mac</figcaption>
+          <figcaption class="nombre-productos"> Mac</figcaption>
         </picture>
       </article>
       <article>
         <picture class="products">
-          <img
+         <a href="https://www.apple.com/es/shop/buy-ipad"><img
             width="200"
             height="130"
             alt=""
@@ -103,14 +109,14 @@
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664912135437,
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664912135437 2x
             "
-          />
+          /></a> 
 
-          <figcaption>iPad</figcaption>
+          <figcaption class="nombre-productos">iPad</figcaption>
         </picture>
       </article>
       <article>
         <picture class="products">
-          <img
+         <a href="https://www.apple.com/es/shop/buy-watch"><img
             width="200"
             height="130"
             alt=""
@@ -119,13 +125,13 @@
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202209_GEO_ES?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1661796451459,
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202209_GEO_ES?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661796451459 2x
             "
-          />
-          <figcaption>Apple Watch</figcaption>
+          /></a> 
+          <figcaption class="nombre-productos">Apple Watch</figcaption>
         </picture>
       </article>
       <article>
         <picture class="products">
-          <img
+         <a href="https://www.apple.com/es/airpods/"><img
             width="200"
             height="130"
             alt=""
@@ -134,9 +140,50 @@
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660676485885,
               https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660676485885 2x
             "
-          />
+          /></a> 
 
-          <figcaption>AirPods</figcaption>
+          <figcaption class="nombre-productos">AirPods</figcaption>
+        </picture>
+      </article>
+
+      <article>
+
+        <picture class="products">
+         <a href="https://www.apple.com/es/airtag/"> <img width="200" height="130" alt="" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1625783380000" srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1625783380000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1625783380000 2x"> </a>
+          
+          <figcaption class="nombre-productos">AirTag</figcaption>
+        </picture>
+      </article>
+
+      <article>
+        <picture class="products">
+         <a href="https://www.apple.com/es/apple-tv-4k/"> <img width="200" height="130" alt="" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664628458484" srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664628458484, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664628458484 2x"></a>
+
+          <figcaption class="nombre-productos">Apple TV 4K</figcaption>
+        </picture>
+      </article>
+
+      <article >
+
+        <picture class="products">
+        <a href="https://www.apple.com/es/homepod/">  <img width="200" height="130" alt="" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670389216654" srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670389216654, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670389216654 2x"></a>
+
+          <figcaption class="nombre-productos">HomePod</figcaption>
+        </picture>
+      </article>
+
+      <article>
+        <picture class="products">
+         <a href="https://www.apple.com/es/shop/accessories/all"> <img width="200" height="130" alt="" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660677092974" srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660677092974, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660677092974 2x"></a>
+
+          <figcaption class="nombre-productos">Accesorios</figcaption>
+        </picture>
+      </article>
+
+      <article>
+        <picture class="products ">
+         <a href="https://www.apple.com/es/shop/gift-cards"><img width="200" height="130" alt="" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-holiday-giftcards-asc-nav-202111_GEO_EMEA?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1656543286055" srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-holiday-giftcards-asc-nav-202111_GEO_EMEA?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1656543286055, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-holiday-giftcards-asc-nav-202111_GEO_EMEA?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1656543286055 2x"> </a> 
+          <figcaption class="nombre-productos">Apple Gift Card</figcaption>
         </picture>
       </article>
     </section>
@@ -180,9 +227,106 @@
           <a href="www.apple.es">Comprar ></a>
         </div>
       </div>
-
       </div>
+
+      
     </main>
+    <section class="grilla-productos">
+
+      <div class="producto-item producto1">
+
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+      <div class="producto-item producto2">
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+      <div class="producto-item producto3">
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+      <div class="producto-item producto4">
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+      <div class="producto-item producto5">
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+      <div class="producto-item producto6">
+        <h2 class="titulo-watch">
+          <div class="manzana"></div>
+          WATCH
+        </h2>
+        <div class="encabezado">
+         <p class="red_text">SERIES 8</p>
+          <h3 class="white_text">Saludablemente</h3>
+        </div>
+
+        <div class="enlaces">
+          <a href="www.apple.es">Más información ></a>
+          <a href="www.apple.es">Comprar ></a>
+        </div>
+      </div>
+
+
+    </section>
     <footer>
       <section class="seccion-contenedor">
         <section class="seccion-principal">
@@ -191,7 +335,7 @@
             Series 3 o posterior enlazado con un iPhone 6s o posterior. Solo
             para nuevas suscripciones. 9,99 €/mes después de la prueba gratuita.
             Si no se cancela, la suscripción se renueva automáticamente. Sujeto
-            a condiciones.
+            a <a href="https://www.apple.com/es/promo/">condiciones.</a> 
           </p>
           <p>
             Los entrenamientos y las meditaciones guiadas de Apple Fitness+ se
