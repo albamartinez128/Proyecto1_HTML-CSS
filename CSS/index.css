@@ -166,6 +166,7 @@ background-image: url(../IMG/manzana.png);
     letter-spacing: 2px;
     margin: 0 auto;
     font-family: sans-serif;     
+   
 }
 
 .imagen-principal{
@@ -349,9 +350,6 @@ a:hover{
     display: none;
 }
 
-
-
-
 figcaption{
     margin-top: 18px;
 }
@@ -419,6 +417,120 @@ height: 725px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    column-gap: 8px;
+    row-gap: 8px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+   
+}
+
+.titulo-grilla1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.encabezado .text-grilla1 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.enlaces-grilla{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -15px;
+    
+}
+
+.titulo-grilla2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.encabezado .text-grilla2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.titulo-grilla3{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.encabezado .text-grilla3{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.titulo-grilla4{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;  
+}
+
+.encabezado .text-grilla4{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.titulo-grilla5{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px; 
+}
+.encabezado .text-grilla5{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.enlaces-grilla5{
+    width: 500px;
+    text-align: center;
+    margin:0 auto;
+    font-family: sans-serif;
+    font-size: 18px;  
+    color: #2997ff;
+    text-decoration: none;
+   
+}
+
+.titulo-grilla6{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;  
+}
+
+
+
+.encabezado .text-grilla6{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white; 
 }
 
 .producto-item{
@@ -426,13 +538,31 @@ height: 725px;
     height: 500px;
     background-size: cover;
     background-position: center center;
+    
 
 }
 .producto1{
     background-image: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
     
 }
+.producto2{
+    background-image: url(https://www.apple.com/v/home/ay/images/promos/macbook-pro-14-and-16/promo_mbp_preorder__faqgyfz56umq_large.jpg) ; 
+}
+.producto3{
+    background-image: url(https://www.apple.com/v/home/ay/images/promos/homepod/promo_homepod__f7jnolq94m2y_large.jpg);
+}
 
+.producto4{
+    background-image: url(https://www.apple.com/v/home/ay/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg) ;
+}
+
+.producto5{
+    background-image:url(https://www.apple.com/es/home/images/promos/apple-fitness-plus-iphone/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg)
+}
+
+.producto6{
+    background-image: url(https://www.apple.com/v/home/ay/images/promos/watch-black-unity/promo_bhm__d8b9z5rlwjgy_large.jpg);
+}
 .navbar-toggle{
     position: absolute;
     top: 20px;
@@ -453,53 +583,58 @@ height: 725px;
 
 .menu-nav{
     list-style-type: none;
-    display: none;
+    display: flex;
 
 }
 /* .menu-nav li{
     text-align: center;
     margin: 15px auto;
+    
 } */
 
 
 @media screen and ( max-width:768px) {
+    
     .navegacion{
         justify-content: space-between;
+        
     }
     .navegacion .links-navegacion{
         display: none;
+    
     }
     .seccion-secundaria{
         flex-wrap: wrap;
     }
     .menu-hamburguesa{
-        display: block;
-        justify-self: flex-end
+        display: flex;
+    }
+
     }
     .navbar-toggle{
-        display: block;
+        display: flex;
+      
     } 
 
-    
-    .menu-nav{
+    .menu-mobile{
         display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        flex-direction: column;
         margin-right: 30px;
     }
-    #check:checked+ul.menu-nav{
-        display: flex;
+   
+    .grilla-productos{
+        grid-template-columns: 1fr;
+     
+    }
+
+    .menu-hamburguesa:hover{
+display: block;
     }
 
     
-
-    /* .menu-nav li{
-        margin: 0;
-    } */
-    
-
-}
-
-#check:checked+ul.menu-nav{
-    display: flex;
-}
-
-
