@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-html{
+html {
     font-size: 12px;
 }
 
 
 
-body{
+body {
     background-color: white;
     padding: 0;
     margin: 0;
@@ -19,7 +19,7 @@ body{
 
 }
 
-.navegacion{
+.navegacion {
     background-color: black;
     color: white;
     font-family: sans-serif;
@@ -27,76 +27,73 @@ body{
     align-items: center;
     justify-content: center;
     padding: 15px;
- 
+
 }
 
-.navegacion ul {
+/* .navegacion ul {
     display: flex;
     list-style-type: none;
 
-}
+} */
 
-.navegacion li{
+.navegacion li {
     margin: 0 10px;
     font-size: 12px;
     font-weight: 400;
 }
 
-.menu-navegacion a{
-    color: white
-    
-}
 
-
-.links-navegacion li a{
+.links-navegacion li a {
     font-family: sans-serif;
     font-size: 11px;
-    font-weight: none;
     color: rgb(235, 233, 233);
 }
 
-.links-navegacion a{
-color: white;
+.links-navegacion a {
+    color: white;
 }
-.shop{
+
+.shop {
     margin-left: 20px;
 }
 
 
 
-.shop i{
+.shop i {
     margin: 0 20px;
     color: white;
+    font-size: 16px;
 }
 
-.encabezado h2{
+.encabezado h2 {
     font-family: sans-serif;
-   text-align: center;
+    text-align: center;
     font-size: 56px;
     font-weight: 600;
     margin: 0;
 }
 
- .white_text{
+.white_text {
     color: white;
     justify-content: center;
-    
-}
- .black_text{
-    color: black;
-    
+
 }
 
-.encabezado h3{
+.black_text {
+    color: black;
+
+}
+
+.encabezado h3 {
     font-size: 28px;
     font-weight: 400;
     text-align: center;
     font-family: sans-serif;
     margin: 20px;
-    
+
 }
 
-main{
+main {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -109,31 +106,33 @@ main a {
     align-items: center;
     justify-content: center;
     margin: 0 10px;
-    
-    display:inline-flex;
+
+    display: inline-flex;
     size: 15px;
-    
-    
+
+
 }
-.contenedor1{
+
+.contenedor1 {
     background-color: #f4ebeb39;
 }
-.imagen-portada{
-background-image:url(../IMG/rihanna__fvhjo9zi8haq_large.jpg) ;
-align-items:center;
-justify-content: center;
-position: relative;
-width: 100%;
-height: 600px;
-background-position: center center;
-background-size: cover;
-padding-top:40px;
-margin: 0 auto; 
+
+.imagen-portada {
+    background-image: url(../IMG/rihanna__fvhjo9zi8haq_large.jpg);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 40px;
+    margin: 0 auto;
 
 }
 
-.manzana{
-background-image: url(../IMG/manzana.png);
+.manzana {
+    background-image: url(../IMG/manzana.png);
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -141,10 +140,11 @@ background-image: url(../IMG/manzana.png);
 
 }
 
-.white_text{
+.white_text {
     text-decoration: none;
 }
-.titulo-rihanna{
+
+.titulo-rihanna {
     color: white;
     display: flex;
     position: relative;
@@ -156,7 +156,7 @@ background-image: url(../IMG/manzana.png);
     margin-bottom: 23px;
 }
 
-.texto-rihanna{
+.texto-rihanna {
     color: white;
     text-align: center;
     font-size: 15px;
@@ -165,87 +165,88 @@ background-image: url(../IMG/manzana.png);
     width: 100%;
     letter-spacing: 2px;
     margin: 0 auto;
-    font-family: sans-serif;     
-   
+    font-family: sans-serif;
 }
 
-.imagen-principal{
+.imagen-principal {
     background-color: black;
     background-image: url(../IMG/unnamed.jpg);
-    align-items:center;
+    align-items: center;
     justify-content: center;
     position: relative;
     width: 100%;
     height: 735px;
     background-position: center center;
     background-size: cover;
-    padding-top:40px;  
+    padding-top: 40px;
 }
 
- .enlaces{
+.enlaces {
     width: 500px;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-family: sans-serif;
     font-size: 21px;
 }
 
-.enlaces a{
+.enlaces a {
     color: #2997ff;
     text-decoration: none;
 }
 
-.enlaces a:hover{
+.enlaces a:hover {
     text-decoration: underline;
 }
 
-.imagen-secundaria{
+.imagen-secundaria {
     background-color: white;
     background-image: url(../IMG/Img-Secundaria1.jpg);
-    align-items:center;
+    align-items: center;
     justify-content: center;
     position: relative;
     width: 100%;
     height: 735px;
     background-position: center center;
     background-size: cover;
-    padding-top:40px;
+    padding-top: 40px;
 }
 
-footer{
+footer {
     background-color: #f5f5f7;
     display: inline-block
 }
 
-.seccion-principal{
+.seccion-principal {
     text-align: justify;
 }
 
-.seccion-secundaria{
+.seccion-secundaria {
     display: flex;
 
-    
+
 }
-.seccion-secundaria div{
+
+.seccion-secundaria div {
     flex-grow: 1;
 }
 
-ul>li{
+ul>li {
     list-style-type: none;
     margin: 10px;
     font-size: 11px;
 }
 
-.titulo-contenedor{
+.titulo-contenedor {
     font-weight: bold;
 }
 
-footer{
+footer {
     padding-top: 30px;
     width: 100%;
-   
+
 }
-.seccion-contenedor{
+
+.seccion-contenedor {
     margin: 0 auto;
     width: 100%;
     max-width: 1024px;
@@ -257,56 +258,58 @@ footer p {
 }
 
 .footer-links {
-display: flex;
+    display: flex;
 
 
- text-decoration: none;
- font-size: 9px;
+    text-decoration: none;
+    font-size: 9px;
 }
 
-.footer-menu{
+.footer-menu {
     display: flex;
     padding: 0;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.footer-menu li{
+.footer-menu li {
     margin: 0;
 }
 
-p{
+p {
     margin: 10px 0;
 }
 
 
-.seccion-principal{
+.seccion-principal {
     border-bottom: 1px solid rgb(184, 184, 184);
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.contacto{
-    border-bottom: 1px solid rgb(184, 184, 184);;
+.contacto {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    ;
     padding-bottom: 10px;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
-.footer-menu li::after{
+
+.footer-menu li::after {
     content: "|";
     margin-left: 20px;
 }
 
-a{
+a {
     text-decoration: underline;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-.products{
+.products {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,21 +317,21 @@ a:hover{
     vertical-align: top;
     padding-top: 10px;
     padding-bottom: 40px;
-    font-weight:600 bold;
+    font-weight: 600;
     font-family: sans-serif;
     margin-bottom: 100px;
     margin-top: 100px;
-   
+
 
 }
 
-.coleccion-productos{
+.coleccion-productos {
     display: flex;
     align-items: stretch;
     align-self: stretch;
     justify-content: flex-start;
     flex-direction: row;
-   margin:0 auto;
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     overflow: hidden;
@@ -336,40 +339,45 @@ a:hover{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 
-  
+
 }
 
- .coleccion-productos::-webkit-scrollbar {
-     display: none; } 
-.coleccion-productos { 
-    -ms-overflow-style: none;
-     scrollbar-width: none;
-     }
-
-.menu-hamburguesa{
+.coleccion-productos::-webkit-scrollbar {
     display: none;
 }
 
-figcaption{
+.coleccion-productos {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menu-hamburguesa {
+    display: none;
+}
+
+
+
+
+figcaption {
     margin-top: 18px;
 }
 
-.products img:hover{
+.products img:hover {
     transform: scale(1.2);
     transition: all 0.55s ease;
-    translate:  80px;
+    translate: 80px;
 }
 
-.imagen-watch{
-  background-image: url(../IMG/hero_apple_watch_series_8__bjc1ok5mkjua_large.jpg);
- background-position: center center;
-height: 725px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  background-size: cover;
+.imagen-watch {
+    background-image: url(../IMG/hero_apple_watch_series_8__bjc1ok5mkjua_large.jpg);
+    background-position: center center;
+    height: 725px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
 }
 
-.titulo-watch{
+.titulo-watch {
     color: white;
     text-align: center;
     font-size: 40px;
@@ -378,42 +386,42 @@ height: 725px;
     width: 100%;
     letter-spacing: 2px;
     margin: 0 auto;
-    font-family: sans-serif;  
+    font-family: sans-serif;
     margin-top: 50px;
 }
 
-.red_text{
+.red_text {
     color: red;
-   font-family: sans-serif;
-   font-size: 18px;
-   text-align: center;
-  letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-.seccion-contenedor{
+.seccion-contenedor {
     color: grey;
 }
 
-.titulo-contenedor{
+.titulo-contenedor {
     color: black;
     font-weight: 500;
-   
+
 }
 
-.logo{
+.logo {
     font-size: 20px;
 }
 
 
 
-.nombre-productos{
+.nombre-productos {
 
-    font-family: sans-serif ;
+    font-family: sans-serif;
     font-weight: 600;
     font-size: 13px;
 }
 
-.grilla-productos{
+.grilla-productos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -422,9 +430,7 @@ height: 725px;
     row-gap: 8px;
     margin-top: 18px;
     margin-bottom: 15px;
-   
 }
-
 .titulo-grilla1{
     color: black;
     font-family: sans-serif;
@@ -433,19 +439,27 @@ height: 725px;
     text-align: center;
     padding-top: 15px;
 }
+.producto-item {
 
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+
+}
 .encabezado .text-grilla1 {
     font-family: sans-serif;
     font-size: 18px;
 }
+.producto1 {
+    background-image: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
 
+}
 .enlaces-grilla{
     text-align: center;
     font-size: 16px;
     margin-top: -15px;
     
 }
-
 .titulo-grilla2{
     color: white;
     font-family: sans-serif;
@@ -563,7 +577,8 @@ height: 725px;
 .producto6{
     background-image: url(https://www.apple.com/v/home/ay/images/promos/watch-black-unity/promo_bhm__d8b9z5rlwjgy_large.jpg);
 }
-.navbar-toggle{
+
+.navbar-toggle {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -573,68 +588,121 @@ height: 725px;
 
 }
 
-#check{
-    display: none;
-    
-}
-#check:checked+ul.menu-nav{
-    display: none;
-}
 
-.menu-nav{
+.menu-nav {
     list-style-type: none;
     display: flex;
-
 }
-/* .menu-nav li{
-    text-align: center;
-    margin: 15px auto;
-    
-} */
-
-
-@media screen and ( max-width:768px) {
-    
-    .navegacion{
-        justify-content: space-between;
-        
-    }
-    .navegacion .links-navegacion{
+  #menu-item {
         display: none;
-    
     }
-    .seccion-secundaria{
+
+@media screen and (max-width:768px) {
+    .navegacion {
+        justify-content: space-between;
+    }
+
+    .links-navegacion {
+        display: none;
+    }
+
+    .seccion-secundaria {
         flex-wrap: wrap;
     }
-    .menu-hamburguesa{
-        display: flex;
+
+    .menu-hamburguesa {
+        display: block;
+        justify-self: flex-end
     }
 
+    .navbar-toggle {
+        display: block;
     }
-    .navbar-toggle{
-        display: flex;
-      
-    } 
 
-    .menu-mobile{
+    #js-navbar-toggle {
+        position: relative;
+        top: 0;
+        z-index: 11;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #check+.links-navegacion {
+        height: 0;
+        transition: height 2s ease;
+    }
+
+    #check:checked+.links-navegacion {
         display: flex;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
+        width: 100%;
+        height: 100vh;
         background-color: black;
-        flex-direction: column;
-        margin-right: 30px;
-    }
-   
-    .grilla-productos{
-        grid-template-columns: 1fr;
-     
+        z-index: 10;
+        transition: height 2s ease;
     }
 
-    .menu-hamburguesa:hover{
-display: block;
+    #check:checked+.links-navegacion {
+        padding: 40px;
     }
+
+    #check:checked+.links-navegacion .menu-mobile li {
+        margin: 10px;
+    }
+
+    #check:checked+.links-navegacion .menu-mobile li a {
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .shop {
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+    .seccion-secundaria div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .seccion-secundaria ul {
+        border-bottom: 1px solid gray;
+    }
+
+    .seccion-secundaria div ul li {
+        display: none;
+    }
+
+    .seccion-secundaria div ul li:first-child {
+        display: block;
+    }
+
+  
+
+    ul li:has(#menu-item:checked) {
+        display: block;
+    }
+
+    .enlaces {
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    
+ 
+    
+}
+
+/* #check:checked+ul.menu-nav {
+    display: flex;
+} */
 
     
