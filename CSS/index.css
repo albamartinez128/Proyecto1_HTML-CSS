@@ -375,6 +375,7 @@ figcaption {
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
+    width: 100%;
 }
 
 .titulo-watch {
@@ -444,6 +445,7 @@ figcaption {
     height: 500px;
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
 
 }
 .encabezado .text-grilla1 {
@@ -454,12 +456,7 @@ figcaption {
     background-image: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
 
 }
-.enlaces-grilla{
-    text-align: center;
-    font-size: 16px;
-    margin-top: -15px;
-    
-}
+
 .titulo-grilla2{
     color: white;
     font-family: sans-serif;
@@ -519,16 +516,7 @@ figcaption {
     color: black;
 }
 
-.enlaces-grilla5{
-    width: 500px;
-    text-align: center;
-    margin:0 auto;
-    font-family: sans-serif;
-    font-size: 18px;  
-    color: #2997ff;
-    text-decoration: none;
-   
-}
+
 
 .titulo-grilla6{
     color: white;
@@ -690,14 +678,17 @@ figcaption {
     }
 
     .enlaces {
-        width: 500px;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         font-family: sans-serif;
         font-size: 16px;
     }
     
- 
+    .grilla-productos {  
+        grid-template-columns: 1fr;
+        
+    }
     
 }
 
