@@ -15,6 +15,7 @@
     <title>Apple (España)</title>
     <link rel="shortcut icon" href="./IMG/manzana.png" type="image/x-icon" />
   </head>
+
   <body>
     <nav class="navegacion">
       <div class="logo">
@@ -218,8 +219,6 @@
         </div>
       </div>
     </nav>
-
-    <!-- ENCABEZADO -->
 
     <!-- MAIN -->
     <section class="contenedor1">
@@ -581,15 +580,13 @@
         </section>
         <section class="seccion-secundaria">
           <div>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                <label for="Ver y Comprar">Ver y Comprar</label>
-                <input
-                  type="checkbox"
-                  name="Ver y Comprar"
-                  id="menu-item"
-                /><span class="mas">+</span>
+                <label for="menu-item-1" class="item-menu-title"
+                  >Ver y Comprar <span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-1" />
               <li>Tienda</li>
               <li>Mac</li>
               <li>iPad</li>
@@ -601,26 +598,35 @@
               <li>Accesorios</li>
               <li>Tarjetas Regalo</li>
             </ul>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Cartera de Apple<span class="mas">+</span>
+                <label for="menu-item-2" class="item-menu-title"
+                  >Cartera de Apple <span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-2" />
               <li>Apple Pay</li>
             </ul>
           </div>
           <div>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Cuentas<span class="mas">+</span>
+                <label for="menu-item-3" class="item-menu-title"
+                  >Cuentas<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-3" />
               <li>Gestionar id de Apple</li>
               <li>Cuenta de Apple Store</li>
               <li>iCloud.com</li>
             </ul>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Entretenimiento<span class="mas">+</span>
+                <label for="menu-item-4" class="item-menu-title"
+                  >Entretenimiento<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-4" />
               <li>Apple One</li>
               <li>Apple TV+</li>
               <li>Apple Music</li>
@@ -632,10 +638,13 @@
             </ul>
           </div>
           <div>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Apple Store<span class="mas">+</span>
+                <label for="menu-item-5" class="item-menu-title"
+                  >Apple Store<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-5" />
               <li>Encontrar una tienda</li>
               <li>Genius Bar</li>
               <li>Today at Apple</li>
@@ -649,40 +658,57 @@
             </ul>
           </div>
           <div>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Empresas<span class="mas">+</span>
+                <label for="menu-item-6" class="item-menu-title"
+                  >Empresas<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-6" />
               <li>Apple y las empresas</li>
               <li>Compras de empresas</li>
             </ul>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Educación<span class="mas">+</span>
+                <label for="menu-item-7" class="item-menu-title"
+                  >Educación<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-7" />
               <li>Apple en la educación</li>
               <li>Compras para la universidad</li>
             </ul>
-            <ul>
-              <li class="titulo-contenedor">Salud<span class="mas">+</span></li>
+            <ul class="menu-block">
+              <li class="titulo-contenedor">
+                <label for="menu-item-8" class="item-menu-title"
+                  >Salud<span class="mas">+</span>
+                </label>
+              </li>
+              <input type="checkbox" name="menu-title" id="menu-item-8" />
               <li>Apple en el sector sanitario</li>
               <li>Salud en el Apple Watch</li>
             </ul>
           </div>
           <div>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Valores de Apple<span class="mas">+</span>
+                <label for="menu-item-9" class="item-menu-title"
+                  >Valores de Apple<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-9" />
               <li>Accesibilidad</li>
               <li>Medio ambiente</li>
               <li>Privacidad</li>
               <li>Responsabilidad de proveedores</li>
             </ul>
-            <ul>
+            <ul class="menu-block">
               <li class="titulo-contenedor">
-                Acerca de Apple<span class="mas">+</span>
+                <label for="menu-item-10" class="item-menu-title"
+                  >Acerca de Apple<span class="mas">+</span></label
+                >
               </li>
+              <input type="checkbox" name="menu-title" id="menu-item-10" />
               <li>Newsroom</li>
               <li>Directivos de Apple</li>
               <li>Oportunidades laborales</li>
