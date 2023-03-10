@@ -238,6 +238,9 @@ ul>li {
 
 .titulo-contenedor {
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 footer {
@@ -584,6 +587,9 @@ figcaption {
   #menu-item {
         display: none;
     }
+    .mas{
+        display: none;
+    }
 
 @media screen and (max-width:768px) {
     .navegacion {
@@ -668,7 +674,7 @@ figcaption {
     }
 
     .seccion-secundaria div ul li:first-child {
-        display: block;
+        display: flex;
     }
 
   
@@ -686,14 +692,12 @@ figcaption {
     }
     
     .grilla-productos {  
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr;   
     }
-    
+    .mas{
+        display: inline;
+    }
 }
 
-/* #check:checked+ul.menu-nav {
-    display: flex;
-} */
 
     
