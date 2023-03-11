@@ -9,6 +9,10 @@
     --link-color: #2997ff;
     --main-text: 'Roboto', sans-serif;
     --text-bold: 700;
+    --text-size: 12px;
+    --text-grid: 40px;
+    --text-links: 21px;
+    --text-links-mobile: 16px;
 }
 
 
@@ -20,12 +24,8 @@
  
  
  html {
-    font-size: 12px;
+    font-size: var(--text-size);
  }
- 
- 
- 
- 
  
  
  body {
@@ -37,7 +37,6 @@
  
  }
  
- 
  .navegacion {
     background-color: var(--second-color);
     color: var(--main-color);
@@ -47,13 +46,12 @@
     justify-content: center;
     padding: 15px;
  
- 
  }
  
  
  .navegacion li {
     margin: 0 10px;
-    font-size: 12px;
+    font-size: var(--text-size);
     font-weight: 400;
  }
  
@@ -84,7 +82,7 @@
  .shop i {
     margin: 0 20px;
     color: var(--main-color);
-    font-size: 16px;
+    font-size: var(--text-links-mobile);
  }
  
  
@@ -231,7 +229,7 @@
     text-align: center;
     margin: 0 auto;
     font-family: var(--main-text);
-    font-size: 21px;
+    font-size: var(--text-links);
  }
  
  
@@ -542,7 +540,7 @@
  .titulo-grilla1 {
     color: var(--second-color);
     font-family: var(--main-text);
-    font-size: 40px;
+    font-size: var(--text-grid);
     justify-content: center;
     text-align: center;
     padding-top: 15px;
@@ -577,7 +575,7 @@
  .titulo-grilla2 {
     color: var(--main-color);
     font-family: var(--main-text);
-    font-size: 40px;
+    font-size: var(--text-grid);
     justify-content: center;
     text-align: center;
     padding-top: 15px;
@@ -593,7 +591,7 @@
  
  .titulo-grilla3 {
     color: var(--main-color);
-    font-size: 40px;
+    font-size: var(--text-grid);
     font-family: var(--main-text);
     justify-content: center;
     text-align: center;
@@ -610,7 +608,7 @@
  
  .titulo-grilla4 {
     color: var(--main-color);
-    font-size: 40px;
+    font-size: var(--text-grid);
     font-family: var(--main-text);
     justify-content: center;
     text-align: center;
@@ -627,7 +625,7 @@
  
  .titulo-grilla5 {
     color: var(--second-color);
-    font-size: 40px;
+    font-size: var(--text-grid);
     font-family: var(--main-text);
     justify-content: center;
     text-align: center;
@@ -648,7 +646,7 @@
  
  .titulo-grilla6 {
     color: var(--main-color);
-    font-size: 40px;
+    font-size: var(--text-grid);
     font-family: var(--main-text);
     justify-content: center;
     text-align: center;
@@ -844,7 +842,7 @@
  
     
     .enlaces {
-        font-size: 16px;
+        font-size: var(--text-links-mobile);
     }
  
  
